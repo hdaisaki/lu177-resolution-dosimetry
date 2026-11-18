@@ -35,7 +35,7 @@
       "orcid": "0000-0001-5778-2363"
     }
   ],
-  "description": "Analysis code for the article \"Isolating the effect of spatial resolution on absorbed-dose estimation in 177Lu-DOTATATE dosimetry: a noise-free digital phantom study with comparison to measured SPECT/CT\" (EJNMMI Physics). It reproduces all tables and figures from the public MRTDosimetry dataset and the authors' derived data (ground-truth maps, segmentation, OpenDose3D dose-rate tables). The code was written with the assistance of a large language model (Claude, Anthropic) and verified by the authors.",
+  "description": "Analysis code for the article \"Isolating the effect of spatial resolution on absorbed-dose estimation in 177Lu-DOTATATE dosimetry: a noise-free digital phantom study with comparison to measured SPECT/CT\" (EJNMMI Physics). It reproduces all tables and figures from the public MRTDosimetry dataset and the authors' derived data (ground-truth maps, segmentation, OpenDose3D dose-rate tables). The code was written with the assistance of a large language model (Claude Opus 5.5, Anthropic) and verified by the authors.",
   "keywords": [
     "177Lu-DOTATATE",
     "internal dosimetry",

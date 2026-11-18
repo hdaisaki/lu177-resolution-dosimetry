@@ -140,7 +140,7 @@ A detailed list with the inputs and outputs of every script is given in each scr
 * **Calibration.** The measured SPECT is converted with 10.705 cps/MBq (1800 s), one quarter of the Jaszczak-based
   factor of 42.82 cps/MBq; see the article (Methods 2.6, Supplementary Methods S6, S7).
 * **Differences from the analysis session** are listed in [docs/VERIFICATION.md](docs/VERIFICATION.md).
-* **Use of generative AI.** The code was written with the assistance of a large language model (Claude, Anthropic).
+* **Use of generative AI.** The code was written with the assistance of a large language model (Claude Opus 5.5, Anthropic).
   All code was reviewed and tested by the authors, including against independent implementations (OpenDose3D dose
   rates and the OpenDose3D recovery-coefficient tool) and by the complete reproduction documented in
   docs/VERIFICATION.md.
