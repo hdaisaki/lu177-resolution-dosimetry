@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Reference values: keep byte-identical (checksums in results/published/SHA256SUMS)
+results/published/** -text
