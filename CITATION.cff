@@ -4,6 +4,14 @@ title: "lu177-resolution-dosimetry: analysis code for isolating the effect of sp
 version: 1.0.0
 date-released: 2026-11-19
 license: MIT
+doi: 10.5281/zenodo.24355540
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24355540
+    description: All versions (concept DOI)
+  - type: doi
+    value: 10.5281/zenodo.24355541
+    description: Version 1.0.0
 type: software
 repository-code: "https://github.com/hdaisaki/lu177-resolution-dosimetry"
 authors:

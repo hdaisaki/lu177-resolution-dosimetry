@@ -1,5 +1,7 @@
 # lu177-resolution-dosimetry
 
+[![DOI](https://zenodo.org/badge/1463427312.svg)](https://doi.org/10.5281/zenodo.24355540)
+
 Analysis code for
 
 > Ogino T, Ito S, Onuma K, Sasaki F, Kita T, Sagara H, Daisaki H. **Isolating the effect of spatial resolution on
@@ -151,7 +153,8 @@ If you use this software in your research, please cite the associated publicatio
 > absorbed-dose estimation in ¹⁷⁷Lu-DOTATATE dosimetry: a noise-free digital phantom study with comparison to measured
 > SPECT/CT. EJNMMI Physics (submitted). DOI: *to be added*
 
-and, where appropriate, this software record (Zenodo, DOI: *to be added*; see [CITATION.cff](CITATION.cff)). If you
+and, where appropriate, this software (Zenodo; version 1.0.0: [doi:10.5281/zenodo.24355541](https://doi.org/10.5281/zenodo.24355541);
+all versions: [doi:10.5281/zenodo.24355540](https://doi.org/10.5281/zenodo.24355540); see [CITATION.cff](CITATION.cff)). If you
 use the MRTDosimetry images, please also cite Robinson AP, Bardiès M, Denis-Bacelar AM, Lassmann M, Tipping J,
 Tran-Gia J. MRTDosimetry. OSF; 2021. doi:10.17605/OSF.IO/69NGE.
 
