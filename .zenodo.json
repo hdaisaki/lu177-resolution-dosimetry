@@ -1,0 +1,83 @@
+{
+  "upload_type": "software",
+  "title": "lu177-resolution-dosimetry: analysis code for isolating the effect of spatial resolution on absorbed-dose estimation in 177Lu-DOTATATE dosimetry",
+  "version": "1.0.0",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Ogino, Tsukasa",
+      "affiliation": "Department of Radiological Sciences, Gunma Prefectural College of Health Sciences, Maebashi, Japan"
+    },
+    {
+      "name": "Ito, Shun",
+      "affiliation": "Department of Radiological Sciences, Gunma Prefectural College of Health Sciences, Maebashi, Japan"
+    },
+    {
+      "name": "Onuma, Kota",
+      "affiliation": "Department of Radiological Sciences, Gunma Prefectural College of Health Sciences, Maebashi, Japan"
+    },
+    {
+      "name": "Sasaki, Fuga",
+      "affiliation": "Department of Radiological Sciences, Gunma Prefectural College of Health Sciences, Maebashi, Japan"
+    },
+    {
+      "name": "Kita, Tomoya",
+      "affiliation": "Department of Radiological Sciences, Gunma Prefectural College of Health Sciences, Maebashi, Japan"
+    },
+    {
+      "name": "Sagara, Hiroaki",
+      "affiliation": "Department of Radiological Sciences, Gunma Prefectural College of Health Sciences, Maebashi, Japan",
+      "orcid": "0000-0002-1528-7185"
+    },
+    {
+      "name": "Daisaki, Hiromitsu",
+      "affiliation": "Department of Radiological Sciences, Gunma Prefectural College of Health Sciences, Maebashi, Japan",
+      "orcid": "0000-0001-5778-2363"
+    }
+  ],
+  "description": "Analysis code for the article \"Isolating the effect of spatial resolution on absorbed-dose estimation in 177Lu-DOTATATE dosimetry: a noise-free digital phantom study with comparison to measured SPECT/CT\" (EJNMMI Physics). It reproduces all tables and figures from the public MRTDosimetry dataset and the authors' derived data (ground-truth maps, segmentation, OpenDose3D dose-rate tables). The code was written with the assistance of a large language model (Claude, Anthropic) and verified by the authors.",
+  "keywords": [
+    "177Lu-DOTATATE",
+    "internal dosimetry",
+    "partial volume effect",
+    "spatial resolution",
+    "digital phantom",
+    "SPECT",
+    "recovery coefficient"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.24343110",
+      "relation": "requires",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.17605/OSF.IO/69NGE",
+      "relation": "references",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/j.ejmp.2023.102583",
+      "relation": "references",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1186/s40658-021-00397-0",
+      "relation": "references",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Add the article DOI (relation isSupplementTo) after publication of the article.",
+  "contributors": [
+    {
+      "name": "Daisaki, Hiromitsu",
+      "affiliation": "Department of Radiological Sciences, Gunma Prefectural College of Health Sciences, Maebashi, Japan",
+      "orcid": "0000-0001-5778-2363",
+      "type": "ContactPerson"
+    }
+  ]
+}

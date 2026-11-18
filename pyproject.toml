@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resdos"
+version = "1.0.0"
+description = "Analysis code: effect of spatial resolution on absorbed-dose estimation in 177Lu-DOTATATE dosimetry"
+license = {text = "MIT"}
+requires-python = ">=3.12"
+dependencies = ["numpy==2.4.4", "scipy==1.17.1", "pandas==3.0.2", "matplotlib==3.10.8", "pydicom==3.0.2"]
+
+[project.optional-dependencies]
+prepare = ["SimpleITK==2.5.6", "pytypedstream==0.1.0"]
+
+[tool.setuptools]
+packages = ["resdos"]

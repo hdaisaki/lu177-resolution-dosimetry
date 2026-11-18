@@ -1,0 +1,80 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite the associated publication (preferred-citation) and, where appropriate, this software record."
+title: "lu177-resolution-dosimetry: analysis code for isolating the effect of spatial resolution on absorbed-dose estimation in 177Lu-DOTATATE dosimetry"
+version: 1.0.0
+date-released: 2026-11-19
+license: MIT
+type: software
+repository-code: "https://github.com/hdaisaki/lu177-resolution-dosimetry"
+authors:
+  - family-names: Ogino
+    given-names: Tsukasa
+    affiliation: Department of Radiological Sciences, Gunma Prefectural College of Health Sciences
+  - family-names: Ito
+    given-names: Shun
+    affiliation: Department of Radiological Sciences, Gunma Prefectural College of Health Sciences
+  - family-names: Onuma
+    given-names: Kota
+    affiliation: Department of Radiological Sciences, Gunma Prefectural College of Health Sciences
+  - family-names: Sasaki
+    given-names: Fuga
+    affiliation: Department of Radiological Sciences, Gunma Prefectural College of Health Sciences
+  - family-names: Kita
+    given-names: Tomoya
+    affiliation: Department of Radiological Sciences, Gunma Prefectural College of Health Sciences
+  - family-names: Sagara
+    given-names: Hiroaki
+    affiliation: Department of Radiological Sciences, Gunma Prefectural College of Health Sciences
+    orcid: "https://orcid.org/0000-0002-1528-7185"
+  - family-names: Daisaki
+    given-names: Hiromitsu
+    affiliation: Department of Radiological Sciences, Gunma Prefectural College of Health Sciences
+    orcid: "https://orcid.org/0000-0001-5778-2363"
+    email: daisaki@gchs.ac.jp
+contact:
+  - family-names: Daisaki
+    given-names: Hiromitsu
+    affiliation: Department of Radiological Sciences, Gunma Prefectural College of Health Sciences
+    orcid: "https://orcid.org/0000-0001-5778-2363"
+    email: daisaki@gchs.ac.jp
+keywords: [177Lu-DOTATATE, internal dosimetry, partial volume effect, spatial resolution, digital phantom, SPECT]
+references:
+  - type: dataset
+    title: "Derived data for \"Isolating the effect of spatial resolution on absorbed-dose estimation in 177Lu-DOTATATE dosimetry\""
+    version: 1.0.0
+    doi: 10.5281/zenodo.24343110
+    publisher: {name: Zenodo}
+    year: 2026
+    authors:
+      - {family-names: Ogino, given-names: Tsukasa}
+      - {family-names: Ito, given-names: Shun}
+      - {family-names: Onuma, given-names: Kota}
+      - {family-names: Sasaki, given-names: Fuga}
+      - {family-names: Kita, given-names: Tomoya}
+      - {family-names: Sagara, given-names: Hiroaki}
+      - {family-names: Daisaki, given-names: Hiromitsu}
+  - type: dataset
+    title: MRTDosimetry
+    authors:
+      - {family-names: Robinson, given-names: Andrew P.}
+      - {family-names: Bardiès, given-names: Manuel}
+      - {family-names: Denis-Bacelar, given-names: Ana M.}
+      - {family-names: Lassmann, given-names: Michael}
+      - {family-names: Tipping, given-names: Jill}
+      - {family-names: Tran-Gia, given-names: Johannes}
+    year: 2021
+    doi: 10.17605/OSF.IO/69NGE
+preferred-citation:
+  type: article
+  title: "Isolating the effect of spatial resolution on absorbed-dose estimation in 177Lu-DOTATATE dosimetry: a noise-free digital phantom study with comparison to measured SPECT/CT"
+  journal: EJNMMI Physics
+  year: 2026
+  status: submitted
+  authors:
+    - {family-names: Ogino, given-names: Tsukasa}
+    - {family-names: Ito, given-names: Shun}
+    - {family-names: Onuma, given-names: Kota}
+    - {family-names: Sasaki, given-names: Fuga}
+    - {family-names: Kita, given-names: Tomoya}
+    - {family-names: Sagara, given-names: Hiroaki}
+    - {family-names: Daisaki, given-names: Hiromitsu}

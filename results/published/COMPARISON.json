@@ -1,0 +1,8 @@
+{
+ "note": "Values excluded from the cross-platform comparison because they derive from the non-identifiable liver f4b fit (parameter CV > 1000%), which is not used in the article; the published tables that contain liver f4b values (Table S4) are checked exactly by t01_make_tables.py --check. Patterns are regular expressions on the value path.",
+ "exclude": {
+  "model_sensitivity.json": ["^/Liver/f4b/"],
+  "gt_auc_validation.json": ["^/Liver/integration/f4b$"],
+  "holdout_144.json": ["^/Liver/f4b$"]
+ }
+}
